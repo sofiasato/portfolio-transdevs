@@ -1,0 +1,83 @@
+body{
+    background-color:  #fefae0;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.background {
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-image: radial-gradient(#38023B, #A288E3, #fefae0);
+    background-size:40%;
+    background-repeat:repeat;
+}
+
+h1{
+    margin-left: 145px;
+}
+
+h2{
+    color: #fefae0;
+    line-height: 2em;
+}
+
+p{
+    color: #fefae0;
+    font-size: 1em;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+main div{
+    background-color: #38023B;
+    width: 300px;
+    padding: 30px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+main div :hover{
+    cursor:wait;
+}
+
+.section-button{
+    margin-top: 50px;
+    margin-left: 575px;
+}
+
+button {
+    background-color: #38023B; 
+    border: none;
+    color: #fefae0;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 1.25em;
+    cursor: zoom-in;
+    transition-duration: 0.4s;
+  }
+
+button:hover{
+    background-color: #F26419; 
+}
+
+.section-button a{
+    color: #fefae0;
+}
+
+.section-button a:hover{
+    color: #fefae0;
+    cursor: zoom-in;
+}

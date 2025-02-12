@@ -1,0 +1,56 @@
+main{
+    width: 100%;
+    height: calc(100vh - 60px);
+    background-image: linear-gradient(#fefae0, #A288E3,#38023B);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+main .about-skill a{
+    text-align: center;
+    color: #fefae0;
+    background-color: #38023B;
+    padding: 14px 25px;
+    display: inline-block;
+    margin-left: 55px;
+}
+
+main .about-skill a:hover{
+    background-color: #F26419;
+}
+
+main .about-img img{
+    width:400px;
+    margin-right: 200px;
+}
+
+main .about-skill .about-skill-bar{
+    width: 300px;
+    height:20px;
+    border:4px solid #fefae0;
+}
+
+main .about-skill .about-skill-bar .about-skill-bar-fill{
+    height:100%;
+    background-color: #38023B;
+}
+
+.htmlcss{
+    width:70%;
+}
+
+.py{
+    width:40%;
+}
+
+.c{
+    width:15%;
+}
